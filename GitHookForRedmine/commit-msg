@@ -57,6 +57,8 @@ else
     exit 3;
 fi
 
+redmine_host=$(git config redmine.host)
+
 echo ""
 echo "Issue ==========================="
 echo "  refs:        $redmine_host/issues/$issue_id"
